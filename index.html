@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Алексей Печерица | Блог</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>АП | Блог</h1>
+      <nav class="navigation">
+        <ul>
+          <li><a href="/">Алексей Печерица | Блог</a></li>
+          <li><a href="/javascript.html">JavaScript</a></li>
+          <li><a href="/technology.html">Технологии</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <section class="section about">
+        <div class="section_element">
+          <h2>Обо мне</h2>
+          <img width="200" src="image.jpg" alt="image" />
+          <p>Меня зовут Алексей Печерица. Я веб-разработчик, фрилансер.</p>
+          <a href="https://vk.com/pecheritsa_alex">МОЙ ВК</a>
+        </div>
+        <div class="section_element">
+          <h3>Мои хобби</h3>
+          <ul>
+            <li>Программирование</li>
+            <li>Фитнес</li>
+            <li>Мотоцикл</li>
+            <li>Съемка видео</li>
+          </ul>
+        </div>
+        <div class="section_element">
+          <h3>Технологии</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Область</th>
+                <th>Технологии</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Backend</td>
+                <td>Node.js, Express, C#, .NET</td>
+              </tr>
+              <tr>
+                <td>Frontend</td>
+                <td>React.js</td>
+              </tr>
+              <tr>
+                <td>Базы данных</td>
+                <td>MongoDB, MySQL, MS SQL Server</td>
+              </tr>
+              <tr>
+                <td>Другое</td>
+                <td>Git, Docker, GCP</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="section articles">
+        <h2>Статьи</h2>
+        <article class="section_element">
+          <h3>Почему я выбрал JavaScript</h3>
+          <p>В этой статье я хочу рассказать, почему выбрал язык JavaScript</p>
+          <a href="javascript.html">Читать</a>
+        </article>
+        <article class="section_element">
+          <h3>Технологии, которые я применяю</h3>
+          <p>В этой статье я рассказываю про свои технологии</p>
+          <a href="technology.html">Читать</a>
+        </article>
+      </section>
+      <section class="section contacts">
+        <h2>Написать мне</h2>
+        <form class="form flex-container direction-column">
+          <div class="flex-container">
+            <label for="name">Имя</label>
+            <input type="text" id="name" />
+          </div>
+          <br />
+          <div class="flex-container">
+            <label for="email">Почта</label>
+            <input type="email" id="email" />
+          </div>
+          <br />
+          <div class="flex-container">
+            <label for="message">Сообщение</label>
+            <br />
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <button type="submit">ОТПРАВИТЬ</button>
+          </div>
+          <br />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
